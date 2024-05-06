@@ -5,85 +5,82 @@ const PrivacyP = () => {
     return ( 
         <div className="PrivacyPContainer">
             <Helmet>
-                <title>Privacy Policy • Meii</title>
-                <meta property="og:title" content="Privacy Policy • Meii" />
-                <meta name="description" content="Privacy Policy for Meii." />
-                <meta property="og:description" content="Privacy Policy for Meii." />
-                <meta property="og:url" content="meiibot.xyz/privacy-policy" />
+                <title>Políticas de Privacidad • PogoGPT</title>
+                <meta property="og:title" content="Políticas de Privacidad • PogoGPT" />
+                <meta name="description" content="Políticas de Privacidad de PogoGPT." />
+                <meta property="og:description" content="Políticas de Privacidad de PogoGPT." />
+                <meta property="og:url" content="ai.pogoos.com/privacy-policy" />
             </Helmet>
             <div className="PrivacyPBubble">
-                <div className="PrivacyPTitle">Privacy Policy</div>
-                <div className="PrivacyPSubTitle">Last Updated: 01/06/2024</div>
+                <div className="PrivacyPTitle">Políticas de Privacidad</div>
+                <div className="PrivacyPSubTitle">Última actualización: 06/05/2024</div>
                 <div className="PrivacyPText">
                     <p>
-                        <b>Collection of Data:</b>
+                        <b>Conjunto de datos:</b>
                     </p>
                     <p>
-                        The use of this application ("Bot") in a server requires the collection of
-                        some specific user and server data ("Data"). The Data collected includes, but is not
-                        limited to Discord server and channel ID values, and data collected for confession moderation purposes.
-                        Use of the Bot is considered an agreement to the terms of this Policy.
-                    </p>
-                    <br />
-                    <p>
-                        <b>Access to Data:</b>
-                    </p>
-                    <p>
-                        Access to Data is only permitted to Bot's developers, and only in the
-                        scope required for the development, moderation, testing, and implementation of
-                        features for the Bot. Data is not sold, provided to, or shared with any third
-                        party, except where required by law or a Terms of Service agreement. You
-                        can view the data upon request by adding <i>oribia.dev</i> on Discord or on our <Link to="/discord" className='GenericLinkDeco' id="PrivacyPLink">Support Server</Link>.
+                        El uso de esta aplicación ("Bot") en un servidor requiere la recopilación de
+                         algunos datos específicos del usuario y del servidor ("Datos").  Los datos recopilados incluyen, pero no son
+                         limitado a los valores de ID del canal y del servidor de Discord, y a los datos recopilados con fines de moderación de consultas en el bot.
+                         El uso del Bot se considera un acuerdo con los términos de esta Política.
                     </p>
                     <br />
                     <p>
-                        <b>Storage of Data:</b>
+                        <b>Acceso a datos:</b>
                     </p>
                     <p>
-                        Data is stored in a MongoDB database. The database is secured to prevent
-                        external access, however no guarantee is provided and the Bot owners
-                        assume no liability for the unintentional or malicious breach of Data. In
-                        the event of an unauthorised Data access, users will be notified through
-                        the Discord client application.
-                    </p>
-                    <br />
-                    <p>
-                        <b>Deletion of Data:</b>
-                    </p>
-                    <p>
-                        Data that is associated with a server is unrecoverably deleted when the Bot leaves that server or the
-                        data deletion command is used. Data that is saved for confession moderation purposes is deleted after
-                        30 days of the confession command being used. The bot owners assume no liability for the unintentional
-                        or intentional deletion of data. 
+                        El acceso a los Datos sólo está permitido a los desarrolladores del Bot, y sólo en el
+                         alcance requerido para el desarrollo, moderación, prueba e implementación de
+                         características para el Bot.  Los datos no se venden, proporcionan ni comparten con ningún tercero, excepto cuando lo exija la ley o un acuerdo de Términos de servicio.  Tú
+                         Puede ver los datos haciendo una solicitud previa a <i>studio.pogoos.com</i> o en nuestro <Link to="/discord" className='GenericLinkDeco' id="PrivacyPLink">servidor de soporte</Link>.
                     </p>
                     <br />
                     <p>
-                        <b>User Rights:</b>
+                        <b>Almacenamiento de datos:</b>
                     </p>
                     <p>
-                        At any time, you have the right to request to view and remove the Data pertaining to
-                        your Discord server or account. You may submit a request through the Discord <Link to="/discord" className='GenericLinkDeco' id="PrivacyPLink">Support Server</Link> or
-                        by adding <i>oribia.dev</i> on Discord. You have the right to request the removal of any relevant Data.
-                    </p>
-                    <br />
-                    <p>
-                        <b>Underage Users:</b>
-                    </p>
-                    <p>
-                        The use of the Bot is not permitted for minors under the age of 13, or
-                        under the age of legal consent for their country. This is in compliance
-                        with the Discord Terms of Service. No information will be knowingly stored
-                        from an underage user. If it is found out that a user is underage we will
-                        take all necessary action to delete the stored data.
+                        Los datos se almacenan en una base de datos MongoDB.  La base de datos está protegida para evitar
+                         acceso externo, sin embargo, no se proporciona ninguna garantía y los propietarios del Bot
+                         no asume ninguna responsabilidad por la violación involuntaria o maliciosa de los Datos.  En
+                         En caso de acceso no autorizado a los Datos, los usuarios serán notificados a través de
+                         la aplicación cliente de Discord.
                     </p>
                     <br />
                     <p>
-                        <b>Questions</b>:
+                        <b>Eliminación de datos:</b>
                     </p>
                     <p>
-                        If you have any questions or you're concerned about what data might be being
-                        stored from your server or account contact <i>oribia.dev</i> on Discord or join the <Link to="/discord" className='GenericLinkDeco' id="PrivacyPLink">Support Server</Link>
-                        . For more information check the Discord Terms Of Service.
+                        Los datos asociados con un servidor se eliminan de forma irrecuperable cuando el Bot abandona ese servidor o se utiliza el comando de eliminación de datos.  Los datos que se guardan con fines de moderación del uso de nuestro bot se eliminan después
+                         30 días desde que se utilizó el comando de generación de imágenes, preguntas o traducción.  Los propietarios del bot no asumen ninguna responsabilidad por daños involuntarios.
+                         o eliminación intencionada de datos. 
+                    </p>
+                    <br />
+                    <p>
+                        <b>Derechos de los usuarios:</b>
+                    </p>
+                    <p>
+                        En cualquier momento, usted tiene derecho a solicitar ver y eliminar los Datos pertenecientes a
+                         su servidor o cuenta de Discord.  Puede enviar una solicitud a través del <Link to="/discord" className='GenericLinkDeco' id="PrivacyPLink">Servidor de soporte</Link> de Discord.  Tiene derecho a solicitar la eliminación de cualquier dato relevante.
+                    </p>
+                    <br />
+                    <p>
+                        <b>Usuarios menores de edad:</b>
+                    </p>
+                    <p>
+                        El uso del Bot no está permitido a menores de 13 años, o
+                         menores de la edad de consentimiento legal para su país.  esto esta en cumplimiento
+                         con los Términos de servicio de Discord.  No se almacenará ninguna información a sabiendas
+                         de un usuario menor de edad.  Si se descubre que un usuario es menor de edad, lo haremos
+                         tomar todas las medidas necesarias para eliminar los datos almacenados.
+                    </p>
+                    <br />
+                    <p>
+                        <b>Preguntas</b>:
+                    </p>
+                    <p>
+                        Si tiene alguna pregunta o le preocupa qué datos podrían estar siendo
+                         almacenado desde su servidor o cuenta, comuníquese con <i>dioverdm</i> en Discord o únase al <Link to="/discord" className='GenericLinkDeco' id="PrivacyPLink">Servidor de soporte</Link>
+                         .  Para obtener más información, consulte los Términos de servicio de Discord.
                     </p>
                 </div>
             </div>
