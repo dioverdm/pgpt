@@ -5,28 +5,28 @@ const Home = () => {
     return ( 
         <div className="HomeContent">
             <Helmet>
-                <title>Meii</title>
-                <meta property="og:title" content="Meii" />
+                <title>PogoGPT | Artificial intelligence</title>
+                <meta property="og:title" content="PogoGPT | Artificial intelligence" />
                 <meta name="description" content="The best free Discord confession bot." />
                 <meta property="og:description" content="The best free Discord confession bot." />
-                <meta property="og:url" content="meiibot.xyz" />
+                <meta property="og:url" content="ai.pogoos.com" />
             </Helmet>
             <div className="LayoutContainer">
                 <div className="InfoBubble">
                     <div className="InfoColLeft">
                         <div className="InfoContent">
-                                <div className="AltBoldText">MEII</div>
-                                <div className="MainText">Confessions Reimagined.</div>
+                                <div className="AltBoldText">POGOGPT</div>
+                                <div className="MainText">Asistente IA</div>
                                 <div className="AltText">Meii is a free and easy-to-use bot, where you can log and send anonymous confessions.</div>
                                 <div className="infoButtonContainer">
                                     <Link to="/invite" className='GenericLinkDeco'>
                                         <div className="infoButton" id="InfoMainButton">
-                                            Invite me
+                                            Invitame
                                         </div>
                                     </Link>
                                     <Link to="/commands" className='GenericLinkDeco'>
                                         <div className="infoButton" id="InfoAltButton">
-                                            Commands
+                                            Comandos
                                         </div>
                                     </Link>
                                 </div>
