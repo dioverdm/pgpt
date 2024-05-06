@@ -17,7 +17,7 @@ const Home = () => {
                         <div className="InfoContent">
                                 <div className="AltBoldText">POGOGPT</div>
                                 <div className="MainText">Asistente IA</div>
-                                <div className="AltText">Meii is a free and easy-to-use bot, where you can log and send anonymous confessions.</div>
+                                <div className="AltText">Soy PogoGPT, tu asistente IA en Discord. ¡Hablemos de lo que quieras! 😊.</div>
                                 <div className="infoButtonContainer">
                                     <Link to="/invite" className='GenericLinkDeco'>
                                         <div className="infoButton" id="InfoMainButton">
