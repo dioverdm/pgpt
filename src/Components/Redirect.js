@@ -10,15 +10,15 @@ const Redirect = ({ link }) => {
     return (
         <div className='MemeContainer'>
             <Helmet>
-                <title>Redirect • Meii</title>
-                <meta property="og:title" content="Redirect • Meii" />
-                <meta name="description" content="A redirect link for Meii." />
-                <meta property="og:description" content="A redirect link for Meii." />
-                <meta property="og:url" content="meiibot.xyz" />
+                <title>Redirección • PogoGPT</title>
+                <meta property="og:title" content="Redirección • PogoGPT" />
+                <meta name="Un enlace de redireccionamiento para PogoGPT." />
+                <meta property="og:description" content="Un enlace de redireccionamiento para PogoGPT." />
+                <meta property="og:url" content="ai.pogoos.com" />
             </Helmet>
             <div className='MemeImage'><img rel="prefetch" src="./img/Memes/rickRoll.gif" alt="Rick Roll" width="380px" height="300px"/></div>
-            <div className='RedirectingText'>Redirecting...</div>
-            <div className='MemeText'>never gonna give you up-</div>
+            <div className='RedirectingText'>Redireccionando...</div>
+            <div className='MemeText'>nunca va a dar</div>
         </div>
     );
 }
