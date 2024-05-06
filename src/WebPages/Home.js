@@ -7,8 +7,8 @@ const Home = () => {
             <Helmet>
                 <title>PogoGPT | Artificial intelligence</title>
                 <meta property="og:title" content="PogoGPT | Artificial intelligence" />
-                <meta name="description" content="The best free Discord confession bot." />
-                <meta property="og:description" content="The best free Discord confession bot." />
+                <meta name="description" content="Descubre PogoGPT, un asistente IA de Discord desarrollado por Pogo OS Studio. Potencia tus servidores con inteligencia artificial. ¡Invitalo ya!" />
+                <meta property="og:description" content="Descubre PogoGPT, un asistente IA de Discord desarrollado por Pogo OS Studio. Potencia tus servidores con inteligencia artificial. ¡Invitalo ya!" />
                 <meta property="og:url" content="ai.pogoos.com" />
             </Helmet>
             <div className="LayoutContainer">
@@ -26,7 +26,7 @@ const Home = () => {
                                     </Link>
                                     <Link to="/commands" className='GenericLinkDeco'>
                                         <div className="infoButton" id="InfoAltButton">
-                                            Comandos
+                                            /help
                                         </div>
                                     </Link>
                                 </div>
@@ -40,13 +40,13 @@ const Home = () => {
                 </div>
                 <div className='InfoDividerHR'><hr /></div>
                 <div className='FeatureTitleContainer'>
-                    <div className='FeatureTitleText'>Features:</div>
+                    <div className='FeatureTitleText'>Funciones:</div>
                 </div>
                 <div className='FeatureBubbleContainer'>
                     <div className="FeatureBubble" id='first'>
                         <div className="FeatureColLeft">
                             <div className='FTextContainer'>
-                                <div className='FTitle' id='LongBoi'>Anonymous Confessions</div>
+                                <div className='FTitle' id='LongBoi'>Genera Imagenes</div>
                                 <div className='FSubTitle'>Send free and simple anonymous confessions to your server</div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ const Home = () => {
                         </div>
                         <div className="FeatureColRight">
                             <div className='FTextContainer' id='CL'>
-                                <div className='FTitle'>Free Logging</div>
+                                <div className='FTitle'>Haz Preguntas</div>
                                 <div className='FSubTitle'>Log those confessions completely free without pay or vote walls</div>
                             </div>
                         </div>
