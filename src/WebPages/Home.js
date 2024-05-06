@@ -34,7 +34,7 @@ const Home = () => {
                     </div>
                     <div className="InfoColRight">
                         <div className="InfoImg">
-                            <img rel="prefetch" src="./img/Logos/MeiiRoundedPurpleBorder.png" alt="MeiiLogo" width="150px" height="150px"/>
+                            <img rel="prefetch" src="./img/Logos/pogogpt.png" alt="MeiiLogo" width="150px" height="150px"/>
                         </div>
                     </div>
                 </div>
