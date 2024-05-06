@@ -12,28 +12,28 @@ const Footer = () => {
                         The best free and simple confession Discord bot
                     </div>
                     <div className="copyrightContent">
-                        Copyright © 2024 Oribia. All rights reserved
+                        Copyright © 2024 Pogo OS Studio. All rights reserved
                     </div>
                 </div>
                 <div className="LCContainer">
                     <div className="linkColumn" id='Space'>
                         <div className="LCTitle">
-                            Meii
+                            PogoGPT
                         </div>
                         <div className="LCLinkContainer">
-                            <div className='LCLinkDiv'><Link to="/terms-of-service" id='LC' className='GenericLinkDeco'>Terms Of Service</Link></div>
-                            <div className='LCLinkDiv'><Link to="/privacy-policy" id='LC'className='GenericLinkDeco'>Privacy Policy</Link></div>
-                            <div className='LCLinkDiv'><Link to="/discord" id='LC'className='GenericLinkDeco'>Support Server</Link></div>
+                            <div className='LCLinkDiv'><Link to="/terms-of-service" id='LC' className='GenericLinkDeco'>Terminos de Servicio</Link></div>
+                            <div className='LCLinkDiv'><Link to="/privacy-policy" id='LC'className='GenericLinkDeco'>Políticas de Privacidad</Link></div>
+                            <div className='LCLinkDiv'><Link to="/discord" id='LC'className='GenericLinkDeco'>Servidor de Soporte</Link></div>
                         </div>
                     </div>
                     <div className="linkColumn">
                         <div className="LCTitle">
-                            Developer
+                            Pogo OS Sudio
                         </div>
                         <div className="LCLinkContainer">
-                            <div className='LCLinkDiv'><Link to="https://oribia.dev" id='LC' className='GenericLinkDeco'>Portfolio</Link></div>
-                            <div className='LCLinkDiv'><Link to="https://github.com/OribiaDev/" id='LC'className='GenericLinkDeco'>Github</Link></div>
-                            <div className='LCLinkDiv'><Link to='mailto:support@oribia.dev' id='LC'className='GenericLinkDeco'>Contact</Link></div>
+                            <div className='LCLinkDiv'><Link to="https://studio.pogoos.com/" id='LC' className='GenericLinkDeco'>Sitio Web</Link></div>
+                            <div className='LCLinkDiv'><Link to="https://github.com/pogo-os/" id='LC'className='GenericLinkDeco'>Github</Link></div>
+                            <div className='LCLinkDiv'><Link to='mailto:contact@pogoos.info' id='LC'className='GenericLinkDeco'>Contacto</Link></div>
                         </div>
                     </div>
                 </div>
