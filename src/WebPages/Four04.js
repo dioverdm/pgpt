@@ -5,22 +5,22 @@ const Four04 = () => {
     return ( 
         <div className="Four04Container">
             <Helmet>
-                <title>404 • Meii</title>
-                <meta property="og:title" content="404 • Meii" />
-                <meta name="description" content="404 Page Not Found" />
-                <meta property="og:description" content="404 Page Not Found" />
-                <meta property="og:url" content="meiibot.xyz/404" />
+                <title>404 • PogoGPT</title>
+                <meta property="og:title" content="404 • PogoGPT" />
+                <meta name="description" content="404 Página no encontrada" />
+                <meta property="og:description" content="404 Página no encontrada" />
+                <meta property="og:url" content="ai.pogoos.com/404" />
             </Helmet>
             <div className="Four04Bubble">
                 <div className="Four04TextContainer">
                     <div className="Four04Title">404</div>
-                    <div className="Four04SubTitle">Page Not Found</div>
-                    <div className="Four04SubSubTitle">Are you looking in the right place?</div>
+                    <div className="Four04SubTitle">Página no encontrada</div>
+                    <div className="Four04SubSubTitle">¿Estás buscando en el lugar correcto?</div>
                 </div>
                 <div className="Four04ButtonContainer">
                     <Link to="/" className='GenericLinkDeco'>
                         <div className="infoButton" id="InfoMainButton">
-                            Back to Homepage
+                            Volver al Inicio
                         </div>
                     </Link>
                 </div>
