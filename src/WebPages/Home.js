@@ -72,7 +72,7 @@ const Home = () => {
                     <div className="FeatureBubble" id='third'>
                         <div className="FeatureColLeft">
                             <div className='FTextContainer' id='GE'>
-                                <div className='FTitle'>GIF Emotes</div>
+                                <div className='FTitle'>Traduce textos</div>
                                 <div className='FSubTitle'>Send GIF emotes to your friends <i>or maybe that special someone~</i></div>
                             </div>
                         </div>
