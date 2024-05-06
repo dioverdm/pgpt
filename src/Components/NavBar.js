@@ -38,7 +38,7 @@ const NavBar = () => {
                 <Link to='/' className="NavLinkHomeExtra">
                     <div className="navHome">
                         <div className="navHomeImg">
-                            <img src="./img/Logos/MeiiRoundedPurpleBorder.png" alt="MeiiLogo" width="32px" height="32px"/>
+                            <img src="./img/Logos/pogogpt.png" alt="PogoGPTLogo" width="32px" height="32px"/>
                         </div>
                         <div className="navHomeMainText">
                             PogoGPT
