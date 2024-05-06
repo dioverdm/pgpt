@@ -9,7 +9,7 @@ const Footer = () => {
                         <img rel="prefetch" src="./img/Logos/MeiiRoundedPurpleBorder.png" alt="MeiiLogo" width="40px" height="40px"/>
                     </div>  
                     <div className="logoText">
-                        The best free and simple confession Discord bot
+                        Tu asistente IA en Discord
                     </div>
                     <div className="copyrightContent">
                         Copyright © 2024 Pogo OS Studio. All rights reserved
@@ -21,14 +21,14 @@ const Footer = () => {
                             PogoGPT
                         </div>
                         <div className="LCLinkContainer">
-                            <div className='LCLinkDiv'><Link to="/terms-of-service" id='LC' className='GenericLinkDeco'>Terminos de Servicio</Link></div>
-                            <div className='LCLinkDiv'><Link to="/privacy-policy" id='LC'className='GenericLinkDeco'>Políticas de Privacidad</Link></div>
-                            <div className='LCLinkDiv'><Link to="/discord" id='LC'className='GenericLinkDeco'>Servidor de Soporte</Link></div>
+                            <div className='LCLinkDiv'><Link to="/terms-of-service" id='LC' className='GenericLinkDeco'>T.O.S</Link></div>
+                            <div className='LCLinkDiv'><Link to="/privacy-policy" id='LC'className='GenericLinkDeco'>Políticas P.</Link></div>
+                            <div className='LCLinkDiv'><Link to="/discord" id='LC'className='GenericLinkDeco'>Soporte</Link></div>
                         </div>
                     </div>
                     <div className="linkColumn">
                         <div className="LCTitle">
-                            Pogo OS Sudio
+                            Desarrollador
                         </div>
                         <div className="LCLinkContainer">
                             <div className='LCLinkDiv'><Link to="https://studio.pogoos.com/" id='LC' className='GenericLinkDeco'>Sitio Web</Link></div>
