@@ -47,25 +47,25 @@ const Home = () => {
                         <div className="FeatureColLeft">
                             <div className='FTextContainer'>
                                 <div className='FTitle' id='LongBoi'>Genera Imagenes</div>
-                                <div className='FSubTitle'>Send free and simple anonymous confessions to your server</div>
+                                <div className='FSubTitle'>Genera imágenes de forma creativa y original.</div>
                             </div>
                         </div>
                         <div className="FeatureColRight">
                             <div className='FPic'>
-                                <img rel="prefetch" src="./img/FeatureScreenshots/Cscreenshot.png" alt="Meii Confession Screenshot" width="270px" height="130px"/>  
+                                <img rel="prefetch" src="./img/FeatureScreenshots/Cscreenshot.png" alt="PogoGPT Imagine Screenshot" width="270px" height="130px"/>  
                             </div>
                         </div>
                     </div>
                     <div className="FeatureBubble" id='second'>
                         <div className="FeatureColLeft">
                             <div className='FPic' id='CL'>
-                                <img rel="prefetch" src="./img/FeatureScreenshots/CLscreenshot.png" alt="Meii Confession Logging Screenshot" width="280px" height="168px"/>  
+                                <img rel="prefetch" src="./img/FeatureScreenshots/CLscreenshot.png" alt="PogoGPT Ask Screenshot" width="280px" height="168px"/>  
                             </div>
                         </div>
                         <div className="FeatureColRight">
                             <div className='FTextContainer' id='CL'>
                                 <div className='FTitle'>Haz Preguntas</div>
-                                <div className='FSubTitle'>Log those confessions completely free without pay or vote walls</div>
+                                <div className='FSubTitle'>Haz preguntas para interactuar y mantener la atención.</div>
                             </div>
                         </div>
                     </div>
@@ -73,12 +73,12 @@ const Home = () => {
                         <div className="FeatureColLeft">
                             <div className='FTextContainer' id='GE'>
                                 <div className='FTitle'>Traduce textos</div>
-                                <div className='FSubTitle'>Send GIF emotes to your friends <i>or maybe that special someone~</i></div>
+                                <div className='FSubTitle'>Traduce textos a diferentes idiomas de manera rápida y eficiente.</div>
                             </div>
                         </div>
                         <div className="FeatureColRight">
                             <div className='FPic' id='GE'>
-                                <img rel="prefetch" src="./img/FeatureScreenshots/GEscreenshot.png" alt="Meii GIF Emote Screenshot" width="280px" height="210px"/>  
+                                <img rel="prefetch" src="./img/FeatureScreenshots/GEscreenshot.png" alt="PogoGPT Translate Screenshot" width="280px" height="210px"/>  
                             </div>
                         </div>
                     </div>
