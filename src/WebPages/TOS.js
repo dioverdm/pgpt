@@ -5,93 +5,82 @@ const TOS = () => {
     return ( 
         <div className="TOSContainer">
             <Helmet>
-                <title>Terms Of Service • Meii</title>
-                <meta property="og:title" content="Terms Of Service • Meii" />
-                <meta name="description" content="Terms Of Service for Meii." />
-                <meta property="og:description" content="Terms Of Service for Meii." />
-                <meta property="og:url" content="meiibot.xyz/terms-of-service" />
+                <title>Términos de Servicio • PogoGPT</title>
+                <meta property="og:title" content="Términos de Servicio • PogoGPT" />
+                <meta name="description" content="Términos de Servicio de PogoGPT." />
+                <meta property="og:description" content="Términos de Servicio de PogoGPT." />
+                <meta property="og:url" content="ai.pogoos.com/terms-of-service" />
             </Helmet>
             <div className="TOSBubble">
-                <div className="TOSTitle">Terms Of Service</div>
-                <div className="TOSSubTitle">Last Updated: 02/07/2024</div>
+                <div className="TOSTitle">Términos de Servicio</div>
+                <div className="TOSSubTitle">Última actualización: 06/05/2024</div>
                 <div className="TOSText">
                     <p>
-                        <b>Usage Agreement:</b>
+                        <b>Acuerdo de uso:</b>
                     </p>
                     <p>
-                        By inviting the bot and using its features (commands) are you agreeing to
-                        the below mentioned Terms of the bot.
-                    </p>
-                    <br />
-                    <p>
-                        You acknowledge that you have the priviledge to use the bot freely on any
-                        Discord Server (Server) you share with it, that you can invite it to any
-                        Server that you have "Manage Server" rights for and that this privilege
-                        might get revoked for you, if you're subject of breaking the terms and/or
-                        policy of this bot, or the Terms of Service, Privacy Policy and/or
-                        Community Guidelines of Discord Inc.
+                        Al invitar al bot y utilizar sus funciones (comandos), usted acepta
+                         los Términos del bot que se mencionan a continuación.
                     </p>
                     <br />
                     <p>
-                        Through using the bot it may collect specific data as described in its
-                        Policy. The intended usage of this data is for core functionalities of the
-                        bot such as command handling, guild-specific settings and the Confession
-                        System.
+                        Usted reconoce que tiene el privilegio de utilizar el bot libremente en cualquier
+                         Servidor de Discord (Servidor) que compartes con él, que puedes invitarlo a cualquier
+                         Servidor para el que tiene derechos de "Administrar servidor" y para el que este privilegio
+                         podría ser revocado para usted, si está sujeto a incumplir los términos y/o
+                         política de este bot, o los Términos de servicio, Política de privacidad y/o
+                         Pautas comunitarias de Discord Inc.
                     </p>
                     <br />
                     <p>
-                        <b>Intended Age:</b>
-                    </p>
-                    <p>
-                        The bot may not be used by individuals under the minimal age described in
-                        Discord's Terms of Service. Doing so will be seen as a violation of these
-                        terms and will result in moderation action.
+                        Al utilizar el bot, puede recopilar datos específicos como se describe en su
+                         Política.  El uso previsto de estos datos es para las funcionalidades básicas del
+                         bot como el manejo de comandos y la administración de sus consultas realizadas en nuestra aplicación, esto oo hacemos para una mejor moderación y ofrecer mayor seguridad.
                     </p>
                     <br />
                     <p>
-                        <b>Abusive Use:</b>
+                        <b>Edad prevista:</b>
                     </p>
                     <p>
-                        You may not use the bot, or any of its features (commands) in a abusive
-                        way. Including but not limited to, Harrasment, Hate Speech, Threatful
-                        And/or Harmful Comments, CSAM, or Violent Extremism. Doing so will be
-                        seen as a violation of these terms and will result in moderation action. 
-                    </p>
-                    <br />
-                    <p>
-                        <b>Affiliation:</b>
-                    </p>
-                    <p>
-                        The Bot is not affiliated with, supported or made by Discord Inc. Any
-                        direct connection to Discord or any of its Trademark objects is purely
-                        coincidental. We do not claim to have the copyright ownership of any of
-                        Discord's assets, trademarks or other intellectual property.
+                        El bot no puede ser utilizado por personas menores de la edad mínima descrita en los
+                         Términos de servicio de Discord.  Hacerlo será visto como una violación de estos
+                         términos y resultará en una acción de moderación.
                     </p>
                     <br />
                     <p>
-                        <b>Liability:</b>
+                        <b>Uso abusivo:</b>
                     </p>
                     <p>
-                        The owner of the bot may not be made liable for individuals breaking these
-                        Terms at any given time. She has faith in the end users being truthfull
-                        about their information and not missusing this bot or The Services of
-                        Discord Inc in a malicious way.
-                    </p>
-                    <br />
-                    <p>
-                        We reserve the right to update these terms at our own discretion, giving
-                        you a 1-Week (7 days) period to opt out of these terms if you're not
-                        agreeing with the new changes. You may opt out by Removing the bot from
-                        any Server you have the rights for.
+                         No puedes utilizar el bot ni ninguna de sus funciones (comandos) de forma abusiva.  Incluyendo, entre otros, acoso, incitación al odio, amenazas
+                         Y/o comentarios dañinos, sexuales, CSAM o extremismo violento.  Hacerlo
+                         se considerará una violación de estos términos y dará lugar a una acción de moderación.
                     </p>
                     <br />
                     <p>
-                        <b>Contact:</b>
+                        <b>Afiliación:</b>
                     </p>
                     <p>
-                        People may get in contact by adding <i>oribia.dev</i> on Discord, or
-                        through the official <Link to="/discord" className='GenericLinkDeco' id="TOSLink">Support Server</Link> of
-                        the Bot. Other ways of support may be provided but aren't guaranteed.
+                        El Bot no está afiliado, respaldado ni fabricado por Discord Inc. Cualquier conexión directa con Discord o cualquiera de sus objetos de marca registrada es pura coincidencia.  No afirmamos tener la propiedad de los derechos de autor de ninguno de los activos, marcas comerciales u otra propiedad intelectual de Discord.
+                    </p>
+                    <br />
+                    <p>
+                        <b>Responsabilidad:</b>
+                    </p>
+                    <p>
+                        El propietario del bot no puede ser responsable de que las personas incumplan estos Términos en un momento dado.  Tiene fe en que los usuarios finales sean sinceros acerca de su información y no hagan un mal uso de este bot o de los servicios de Discord Inc de forma maliciosa.
+                    </p>
+                    <br />
+                    <p>
+                        Nos reservamos el derecho de actualizar estos términos a nuestra propia discreción, dándole un período de 1 semana (7 días) para optar por no participar en estos términos si no está de acuerdo con los nuevos cambios.  Puede optar por no participar eliminando el bot de cualquier servidor para el que tenga derechos.
+                    </p>
+                    <br />
+                    <p>
+                        <b>Contacto:</b>
+                    </p>
+                    <p>
+                        Las personas pueden ponerse en contacto agregando a <i>dioverdm</i> en Discord, escribiendo al correo electrónico <Link to="mailto:contact@pogoos.info" className='GenericLinkDeco' ID="TOSLink">contact@pogoos.info</Link>, o
+                         a través del <Link to="/discord" className='GenericLinkDeco' id="TOSLink">Servidor de soporte</Link> oficial de
+                         el bot.  Es posible que se brinden otras formas de soporte, pero no están garantizadas.
                     </p>
                 </div>
             </div>
