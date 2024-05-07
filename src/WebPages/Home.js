@@ -52,14 +52,14 @@ const Home = () => {
                         </div>
                         <div className="FeatureColRight">
                             <div className='FPic'>
-                                <img rel="prefetch" src="./img/FeatureScreenshots/Cscreenshot.png" alt="PogoGPT Imagine Screenshot" width="270px" height="130px"/>  
+                                <img rel="prefetch" src="./img/FeatureScreenshots/GIscreenshot.jpg" alt="PogoGPT Imagine Screenshot" width="270px" height="130px"/>  
                             </div>
                         </div>
                     </div>
                     <div className="FeatureBubble" id='second'>
                         <div className="FeatureColLeft">
                             <div className='FPic' id='CL'>
-                                <img rel="prefetch" src="./img/FeatureScreenshots/CLscreenshot.png" alt="PogoGPT Ask Screenshot" width="280px" height="168px"/>  
+                                <img rel="prefetch" src="./img/FeatureScreenshots/ASKscreenshot.jpg" alt="PogoGPT Ask Screenshot" width="280px" height="168px"/>  
                             </div>
                         </div>
                         <div className="FeatureColRight">
@@ -78,7 +78,7 @@ const Home = () => {
                         </div>
                         <div className="FeatureColRight">
                             <div className='FPic' id='GE'>
-                                <img rel="prefetch" src="./img/FeatureScreenshots/GEscreenshot.png" alt="PogoGPT Translate Screenshot" width="280px" height="210px"/>  
+                                <img rel="prefetch" src="./img/FeatureScreenshots/TTscreenshot.jpg" alt="PogoGPT Translate Screenshot" width="280px" height="210px"/>  
                             </div>
                         </div>
                     </div>
